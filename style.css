@@ -3,11 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-#profil{
+.profile img{
     width: 150px;
     height: 150px;
     border-radius: 100%;
     border: 5px solid white ;
+    transition: 1s;
 }
 
 .container{
@@ -19,13 +20,18 @@
     margin: 0 auto;
     height: 100vh;
 }
+/* .profile img:hover{
+    transform: scale(1,2);
 
+    cursor: pointer;
+    } */
 .profile{
     align-items: center;
     display: flex;
     flex-direction: column;
     padding: 30px;
     justify-content: center;
+   
 }
 
 .profile h3{
@@ -66,17 +72,3 @@
     -webkit-backdrop-filter: blur(8px);
     border: none;
 }
-/* 
-.gambar{
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    padding: 30px;
-    
-    justify-content: center;
-}
-.gambar img{
-    width: 45px;
-    height: 60px;
-
-} */
